@@ -30,11 +30,12 @@ class SearchResultContainer extends Component {
     render() {
         <div>
             <Container>
+            <Header />
             <SearchForm
               handleFormSubmit={this.handleFormSubmit}
               handleInputChange={this.handleInputChange}
-
-            />        
+            />
+            <SearchResultContainer results={this.state.results} />        
             </Container>
         </div>
     };
