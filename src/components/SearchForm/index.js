@@ -9,9 +9,10 @@ function SearchForm(props) {
                 onChange={props.handleInputChange}
                 value={props.search}
                 name="search"
+                list="employees"
                 type="text"
                 className="form-control"
-                placeholder="Search for a Gif"
+                placeholder="Search for an employee"
                 id="search"
             />
             </div>
